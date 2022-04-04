@@ -16,6 +16,6 @@ def PatientQuery(config, **kwargs):
         for item in items:
             subject = subjects.get('0617-' + item)
             if subject:
-            subjects.listing.remove(subject)
+                subjects.listing.remove(subject)
 
     return sandbox_project.subjects
