@@ -37,7 +37,7 @@ for subject in subjects.values():
                 subjects.listing.remove(subject)
                 break
 
-print('subject')
+print('subject:', subjects.listing)
 
 
 # for key, items in config['CRITERIA'].items():
